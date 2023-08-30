@@ -1,0 +1,61 @@
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  background-color: #f1f7f7;
+}
+
+.nav-title {
+  font-family: 'skranjiregular', Arial, sans-serif;
+  font-weight: 700;
+  font-size: 28px;
+}
+
+.button-text {
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.image-caption {
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.main-title {
+  font-family: 'skranjiregular', Arial, sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.subheader-text {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.body-text {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.project-card-text {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
+}
+
+.project-title {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+}
+
+@font-face {
+  font-family: 'skranjiregular';
+  src: url('../assets/font/skranji-regular-webfont.woff2') format('woff2'),
+       url('../assets/font/skranji-regular-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
